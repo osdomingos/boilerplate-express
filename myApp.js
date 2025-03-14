@@ -21,7 +21,7 @@ app.get('/json', (req, res) => {
         response = 'Hello json';
     }
     
-    res.json(response);
+    res.json({response});
 });
 
 
