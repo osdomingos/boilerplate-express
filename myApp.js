@@ -12,8 +12,7 @@ app.use("/public", express.static(absolutePath2));
 
 app.get('/json', (req, res) => {
     let response = '';
-    
-    // Verificar o valor de process.env.MESSAGE_STYLE
+
     console.log("MESSAGE_STYLE:", process.env.MESSAGE_STYLE);
     
     if (process.env.MESSAGE_STYLE === "uppercase") {
@@ -22,7 +21,7 @@ app.get('/json', (req, res) => {
         response = 'Hello json';
     }
     
-    res.json({"message": response});
+    res.json(response);
 });
 
 
