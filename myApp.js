@@ -13,6 +13,9 @@ app.get("/", (req, res) => {
     res.sendFile(absolutePath)
 })
 
+const absolutePath2 = __dirname + "/public"
+
+app.use(express.static(absolutePath2));
 
 
 
