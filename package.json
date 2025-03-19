@@ -3,10 +3,8 @@
   "version": "0.1.0",
   "dependencies": {
     "-": "^0.0.1",
-    "body-parser": "^1.15.2",
-    "cookie-parser": "^1.4.3",
     "dotenv": "^16.4.7",
-    "express": "^4.14.0",
+    "express": "^4.21.2",
     "fcc-express-bground": "github:freeCodeCamp/fcc-express-bground-pkg"
   },
   "main": "server.js",
